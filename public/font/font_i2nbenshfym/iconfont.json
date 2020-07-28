@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "974778",
+      "name": "7天退换",
+      "font_class": "7tiantuihuan",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "3248644",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e511",
+      "unicode_decimal": 58641
+    },
+    {
+      "icon_id": "3849908",
+      "name": "换货",
+      "font_class": "huanhuo",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "7791034",
+      "name": "维修",
+      "font_class": "weixiu",
+      "unicode": "e7f2",
+      "unicode_decimal": 59378
+    },
+    {
+      "icon_id": "10487556",
+      "name": "礼物",
+      "font_class": "liwu",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    }
+  ]
+}
