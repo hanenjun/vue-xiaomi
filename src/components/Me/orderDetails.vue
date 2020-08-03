@@ -4,7 +4,7 @@
       <div class="title">订单详情请谨防钓鱼链接或诈骗电话</div>
       <div class="code">订单号：{{orderdetail.ordergoodsid}}</div>
       <div class="btn">
-        <button>取消订单</button>
+        <button @click="cancel">取消订单</button>
         <button>立即付款</button>
       </div>
     </div>
@@ -84,6 +84,10 @@ export default {
     }
   },
   methods:{
+    cancel(){
+     this.$store.dispatch('delDetailsAsync',this.$route.params.id)
+     this.$router.go(-1)
+    },
     edit(){
       this.dialogVisible = true;
       
