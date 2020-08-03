@@ -7,7 +7,7 @@
          <img class="img" src="https://account.xiaomi.com/static/res/349d9c1/account-static/respassport/acc-2014/img/milogo.png">
       <h1>注册小米账号</h1>
         <input v-if="!loginw" placeholder="请输入用户名" type="text" v-model="username" />
-        <input v-if="!loginw"   placeholder="请输入手机号" type="password" v-model="phonecode" />
+        <input v-if="!loginw"   placeholder="请输入手机号" type="text" v-model="phonecode" />
         <input v-if="loginw"  placeholder="请输入密码" type="password" v-model="password" />
         <div class="codes">
           <input   v-if="!loginw" class="code" placeholder="请输入验证码" type="text" v-model="code" />

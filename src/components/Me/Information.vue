@@ -111,7 +111,7 @@ export default {
         });
         val.target.style.color = "#ff6700";
         this.sexVal = val.target.attributes[1].nodeValue;
-        this.sexVal == 1 ? (this.user.sex = "男") : (this.user.sex = "女");
+        this.sexVal == 1 ? (this.userobj.sex = "男") : (this.userobj.sex = "女");
       });
     },
     edit() {
